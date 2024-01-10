@@ -12,7 +12,7 @@ def main():
         # checking an element for a letter 
         if i.isdigit():
             amount_num += 1
-        else: 
+        elif i.isalpha(): 
             amount_letter += 1
             
 
